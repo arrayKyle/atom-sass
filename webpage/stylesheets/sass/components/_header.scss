@@ -22,7 +22,21 @@ header {
       width: 400px;
       height:100%;
 
-    }
+      #ul-nav-left{
+          display:flex;
+          justify-content: space-between;
+
+      li{
+        padding: 8px;
+
+        @extend %fake-link
+
+
+
+
+        }
+      }//ul
+    }//header-content-left
 
     #header-content-right{
       width: 100px;
