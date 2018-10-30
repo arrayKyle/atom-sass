@@ -81,4 +81,10 @@ header {
   width: 100vw;
   height: 33px;
   padding: 5px 0;
+  display: flex;
+  justify-content: center;
   background-color: #584c4f; }
+  header #header-content {
+    width: 860px;
+    height: 100%;
+    background-color: #CCC; }
