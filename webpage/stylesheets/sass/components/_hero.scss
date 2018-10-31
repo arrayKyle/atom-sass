@@ -35,9 +35,25 @@ $border-style: 1px solid #4E4B4D;
             height:25%;
             width:100%;
             border-bottom: $border-style;
+            @include basic-flex(center,center);
+            color:$body-text-color;
+            flex-direction: column;
+
+            h1{
+              font-size:1.4em;
+              font-weight: 500;
+              color: #EED9B7;
+              margin-bottom: .4em;
+
+            }
+
+            span{
+              font-size:.9em;
+              color:#EED9B788;
+            }
 
             &:last-child{
-              border-bottom:none; 
+              border-bottom:none;
             }
 
           }//li
