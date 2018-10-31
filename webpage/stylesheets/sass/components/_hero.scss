@@ -1,3 +1,6 @@
+// LOCAL VARIABLEAS
+$border-style: 1px solid #4E4B4D;
+
 // *** hero partial ***
 
 #hero{
@@ -10,14 +13,35 @@
 
     #hero-content-top{
       width:100%;
+      @include basic-flex(space-between,flex-end);
+
       #hero-content-top-ani{
         width:582px;
+        height:350px;
         background-color: darken($body-color, 3%);
       }//hero-content-top-ani
 
       #hero-content-top-ul{
         width:228px;
         margin-left:50px;
+
+        ul{
+          height:350px;
+          width:228px;
+          border: $border-style;
+          border-radius: 20px;
+
+          li{
+            height:25%;
+            width:100%;
+            border-bottom: $border-style;
+
+            &:last-child{
+              border-bottom:none; 
+            }
+
+          }//li
+        }//ul
       }//hero-content-top-ul
     }//hero-content-top
   }//hero-content

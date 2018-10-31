@@ -172,10 +172,14 @@ header #header-content #header-content-right ul li img {
 
 #hero #hero-content #hero-content-top {
   width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
 }
 
 #hero #hero-content #hero-content-top #hero-content-top-ani {
   width: 582px;
+  height: 350px;
   background-color: #2b2a2b;
 }
 
@@ -184,11 +188,27 @@ header #header-content #header-content-right ul li img {
   margin-left: 50px;
 }
 
+#hero #hero-content #hero-content-top #hero-content-top-ul ul {
+  height: 350px;
+  width: 228px;
+  border: 1px solid #4E4B4D;
+  border-radius: 20px;
+}
+
+#hero #hero-content #hero-content-top #hero-content-top-ul ul li {
+  height: 25%;
+  width: 100%;
+  border-bottom: 1px solid #4E4B4D;
+}
+
+#hero #hero-content #hero-content-top #hero-content-top-ul ul li:last-child {
+  border-bottom: none;
+}
+
 body {
   height: 100vh;
   width: 100vw;
   font-size: 100%;
   font-family: "Helvetica Neue", Helvetica, arial, freesans, clean, sans-serif;
-  color: #EFEAE1;
   background-color: #333233;
 }
