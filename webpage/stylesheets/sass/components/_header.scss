@@ -17,9 +17,10 @@ header {
   justify-content: center;
 
   background-color: #584c4f;
+  color: $body-text-color;
 
   #header-content{
-    width:860px;
+    width:$content-width;
     height:100%;
     display:flex;
     justify-content: space-between;
