@@ -67,7 +67,7 @@ header {
       li{
         @extend %fake-link;
         transition: $hover-transition-time;
-      
+
 
 
         &:hover{
@@ -76,6 +76,7 @@ header {
         }// :hover
 
         img{
+
           position: relative;
           top:2px;
         }
