@@ -14,8 +14,19 @@
 body{
   height: 100vh;
   width: 100vw;
-  font-size: 100%;
+
+
   font-family: "Helvetica Neue", Helvetica, arial, freesans, clean, sans-serif;
+  font-size:100%;
+  color:#EFEAE1;
 
   background-color:$body-color;
+}
+
+a{
+  text-decoration:none;
+  color:inherit;
+  &hover{
+    text-decoration: none;
+  }
 }
