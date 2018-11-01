@@ -256,8 +256,50 @@ header #header-content #header-content-right ul li img {
   border-bottom: none;
 }
 
-#hero #hero-content #hero-content-top #hero-content-top-ul ul li a divhover {
+#hero #hero-content #hero-content-top #hero-content-top-ul ul li a div:hover {
   background-color: #EBAB00;
+}
+
+#hero #hero-content #hero-content-bottom {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#hero #hero-content #hero-content-bottom p {
+  color: #766E63AA;
+  font-size: .8em;
+}
+
+#hero #hero-content #hero-content-bottom p a {
+  color: #766E63;
+}
+
+#hero #hero-content #hero-content-bottom p a:hover {
+  color: #EBAB00;
+}
+
+#hero #hero-content #hero-content-bottom ul {
+  width: 100%;
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#hero #hero-content #hero-content-bottom ul li {
+  color: #8D8273;
+  font-size: .9em;
+}
+
+#hero #hero-content #hero-content-bottom ul li:first-child {
+  margin-right: 32px;
+}
+
+#hero #hero-content #hero-content-bottom ul li:first-child a:hover {
+  color: #EBAB00;
 }
 
 body {
