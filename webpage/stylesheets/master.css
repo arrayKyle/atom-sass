@@ -296,8 +296,28 @@ footer {
         footer #footer-content #footer-content-left div:hover {
           background-color: #EBAB00; }
     footer #footer-content #footer-content-right {
-      width: 1000px;
-      height: 295px; }
+      width: 50%;
+      padding-left: 75px;
+      box-sizing: border-box;
+      height: 295px;
+      display: flex;
+      justify-content: space-around;
+      align-items: flex-start;
+      flex-direction: column; }
+      footer #footer-content #footer-content-right #footer-content-right-uls {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row; }
+        footer #footer-content #footer-content-right #footer-content-right-uls ul {
+          color: #EFDAB9;
+          line-height: 1.7; }
+          footer #footer-content #footer-content-right #footer-content-right-uls ul li {
+            padding-right: 26px; }
+            footer #footer-content #footer-content-right #footer-content-right-uls ul li a {
+              color: #FED153; }
+              footer #footer-content #footer-content-right #footer-content-right-uls ul li a:hover {
+                color: #EBAB00; }
 
 body {
   height: 100vh;
