@@ -268,6 +268,10 @@ header {
   justify-content: center;
   align-items: center;
   flex-direction: row; }
+  #sub-features a {
+    color: #FED153; }
+    #sub-features a:hover {
+      color: #EBAB00; }
   #sub-features #sub-features-content {
     width: 860px;
     display: flex;
@@ -284,7 +288,7 @@ header {
         width: 100%;
         display: grid;
         grid-template: repeat(3, 1fr)/repeat(2, 1fr);
-        grid-gap: 40% 5%; }
+        grid-gap: 100px 5%; }
         #sub-features #sub-features-content #sub-features-expectations #expectations-grid div:nth-child(1) {
           width: 100%;
           height: 80px;
@@ -325,6 +329,46 @@ header {
           height: 80px;
           padding-left: 60px;
           background: url("media/imgs/sf6.png") no-repeat;
+          background-position: left top;
+          background-size: 9.1%; }
+    #sub-features #sub-features-content #sub-features-customize {
+      width: 100%; }
+      #sub-features #sub-features-content #sub-features-customize h2 {
+        width: 100%;
+        margin-top: 100px;
+        margin-bottom: 50px;
+        text-align: left; }
+      #sub-features #sub-features-content #sub-features-customize #customize-grid {
+        width: 100%;
+        display: grid;
+        grid-template: repeat(2, 1fr)/repeat(2, 1fr);
+        grid-gap: 100px 5%; }
+        #sub-features #sub-features-content #sub-features-customize #customize-grid div:nth-child(1) {
+          width: 100%;
+          height: 80px;
+          padding-left: 60px;
+          background: url("media/imgs/sf7.png") no-repeat;
+          background-position: left top;
+          background-size: 9.1%; }
+        #sub-features #sub-features-content #sub-features-customize #customize-grid div:nth-child(2) {
+          width: 100%;
+          height: 80px;
+          padding-left: 60px;
+          background: url("media/imgs/sf8.png") no-repeat;
+          background-position: left top;
+          background-size: 9.1%; }
+        #sub-features #sub-features-content #sub-features-customize #customize-grid div:nth-child(3) {
+          width: 100%;
+          height: 80px;
+          padding-left: 60px;
+          background: url("media/imgs/sf9.png") no-repeat;
+          background-position: left top;
+          background-size: 9.1%; }
+        #sub-features #sub-features-content #sub-features-customize #customize-grid div:nth-child(4) {
+          width: 100%;
+          height: 80px;
+          padding-left: 60px;
+          background: url("media/imgs/sf10.png") no-repeat;
           background-position: left top;
           background-size: 9.1%; }
 
