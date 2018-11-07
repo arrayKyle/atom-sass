@@ -9,14 +9,8 @@ $column-gap: 5%;
   width: 100vw;
   padding: 210px 0px;
   @include basic-flex(center, center);
-a{
-
-  color:$button-color;
-
-  &:hover{
-    color: $hover-color;
-  }
-}
+  @extend %text-link;
+  
   #sub-features-content{
     width: $content-width;
     @include basic-flex(center, center, column);
