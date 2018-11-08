@@ -13,12 +13,10 @@
       width:100%;
       @include basic-flex(space-between,center);
 
-      #hero-content-top-ani{
-        width:582px;
-        height:500px;
-        background-color: darken($body-color, 3%);
+      //INLINE SASS PARTIAL
+      @import'hero-ani';
 
-      }//hero-content-top-ani
+
 
       #hero-content-top-ul{
         width:228px;
@@ -82,7 +80,7 @@
 
             }
 
-            p{
+            span{
               color: $body-color;
               font-weight: 500;
               font-size: 1.1em;
